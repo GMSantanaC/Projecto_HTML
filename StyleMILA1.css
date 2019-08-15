@@ -1,0 +1,27 @@
+fieldset>legend {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 20px;
+    background-color: #daf7d9;
+    border-color: #191b1b;
+    color: #3a87ad;
+    border-radius: 2px 2px 2px 2px;
+}
+fieldset {
+    border: 1px solid #bce8f1;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 5px 10px 30px;
+    border-radius: 2px 2px 2px 2px;
+    background-color: antiquewhite;
+}
+.labelForm, .labelFormG {
+    background: #f1f1f1;
+    padding: 6px 10px;
+    text-align: right;
+    width: 190px;
+    margin: 4px 5px;
+    font-weight: normal;
+    border-radius: 2px 2px 2px 2px;
+}
