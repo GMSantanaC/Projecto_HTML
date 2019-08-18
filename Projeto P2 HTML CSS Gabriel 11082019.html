@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            MILA Smart Dogs' Cool Stuff
+        </title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="styleMILA1.css">
+    </head>
+    <body>
+        <header align = center>
+            <h2>MILA's - Registration Page </h2>
+        </header>
+        <div style="float: right"></div>
+        <div></div>
+
+        <form>
+            <fieldset><br>
+            <legend><h3>Your Dog's information</h3></legend>
+            <label class="labelForm">Dog's name : </label>
+            <input type="text" id="primeironome" required placeholder ="Write your Dog's name here"><br><br>
+
+            <label class="labelForm">Select your Dog's Breed</label>
+            <select id="Breed" type="radio"><br>
+                <option>Retrievers (Labrador)</option>
+                <option>German Shepherd Dogs</option>
+                <option>Retrievers (Golden)</option>
+                <option>French Bulldogs</option>
+                <option>Bulldogs</option>
+                <option>Beagles</option>
+                <option>Poodles</option>
+                <option>Rottweilers</option>
+                <option>Yorkshire Terriers</option>
+                <option>Boxers</option>
+                <option>Dachshunds</option>
+                <option>Siberian Huskies</option>
+            </select>  <br><br>
+            <label class="labelForm">Dog's sex :</label>
+            <input type = "radio" name="sexo" required>Female
+            <input type = "radio" name="sexo" required>Male
+            <input type = "radio" name="sexo" required>Prefer not to declare<br><br>
+
+            <label class="labelForm" required>Your Dog's age in months : </label>
+            <input type="number" required id="idade" min="1" max="240"><br><br>
+
+            <label class="labelForm" required>Please, select a file  with a picture of your Dog : </label>
+            <input type="file" multiple><br><br>
+            </fieldset><br>
+            <fieldset><br>
+            <legend><h3>Your information</h3></legend>
+            <label class="labelForm">Dog's owner first name : </label>
+            <input type="text" id="primeironome" required placeholder ="First name "><br><br>
+            <label class="labelForm">Dog's owner Second name : </label>
+            <input type="text" id="segundonome" required placeholder ="Second name"><br><br>
+            
+            <label class="labelForm">Email address : </label>
+            <input type="text" id="primeironome" required placeholder ="Email here"><br><br>
+
+            <label class="labelForm">Phone contact information</label>
+            <input type = "radio" name="sexo" required>Mobile
+            <input type = "radio" name="sexo" required>Home
+            <input type = "radio" name="sexo" required>Work
+            <input type="text" id="telephone" required placeholder ="Phone number"><br><br>
+
+            <label class="labelForm">Shipping address</label><br><br>
+            <label class="labelForm">Street and number : </label>
+            <input type="text" id="address" required placeholder ="Street name and number "><br><br>
+            <label class="labelForm">Complement : </label>
+            <input type="text" id="address" required placeholder ="Complement "><br><br>
+            <label class="labelForm">City, State and Zip Code : </label>
+            <input type="text" id="address" required placeholder ="City">
+            <input type="text" id="address" required placeholder ="State">
+            <input type="text" id="address" required placeholder ="Zip code"><br><br>
+
+
+            <label class="labelForm">Addional information/requests : </label> <br><br>
+            <textarea id="obs" rows="8" cols="50"></textarea> <br><br>
+
+            </fieldset><br>
+            <button type="submit" required>Enviar</button>
+            <button type="reset" required>Limpar</button>
+
+        </form>
+    </body>
+</html>
